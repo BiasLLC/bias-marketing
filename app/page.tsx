@@ -66,7 +66,7 @@ export default function Home() {
               />
               <Feature 
                 title="Instant search" 
-                description="Find anything across all your projects with our patent-pending search system."
+                description="Seek and find project-wide with our patent-pending search system."
               />
               <Feature 
                 title="Sprint timer" 
