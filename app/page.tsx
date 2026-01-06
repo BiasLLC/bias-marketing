@@ -34,7 +34,7 @@ export default function Home() {
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10">
             Some words are more important than others, <em>yours</em>.
             <br />
-            A professional markdown editor for novelists, journalists, students, and bloggers.
+            A professional markdown editor for novelists, journalists, students, and bloggers. Screenwriters, you&apos;re <a href="#screenwriter" className="text-blue-600 hover:text-blue-700 font-medium underline">next</a>.
           </p>
           <div className="flex justify-center gap-4">
             {/* These will link to actual stores once live */}
@@ -135,7 +135,7 @@ export default function Home() {
         </section>
 
         {/* Coming Soon - BIAS Screenwriter */}
-        <section className="border-t border-gray-200 bg-gradient-to-br from-purple-600 to-indigo-700">
+        <section id="screenwriter" className="border-t border-gray-200 bg-gradient-to-br from-purple-600 to-indigo-700">
           <div className="max-w-5xl mx-auto px-6 py-20 text-center text-white">
             <div className="inline-block bg-white/20 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
               COMING SOON
@@ -144,7 +144,7 @@ export default function Home() {
               BIAS Screenwriter
             </h2>
             <p className="text-xl text-purple-100 max-w-2xl mx-auto mb-8">
-              Professional screenplay writing with Fountain syntax, scene numbering, and production-ready formatting. Built with the same powerful patent-pending search system as BIAS Writer.
+              Professional screen and stage writing with Fountain syntax, scene numbering, and production-ready formatting. Built with the same powerful patent-pending search system as BIAS Writer.
             </p>
             <a 
               href="mailto:info@bias.pub?subject=BIAS%20Screenwriter%20-%20Early%20Access"
