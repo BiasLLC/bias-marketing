@@ -144,7 +144,7 @@ export default function Home() {
               BIAS Screenwriter
             </h2>
             <p className="text-xl text-purple-100 max-w-2xl mx-auto mb-8">
-              Professional screenplay writing with Fountain syntax, scene numbering, and production-ready formatting. Built with the same powerful patent pending search system as BIAS Writer.
+              Professional screenplay writing with Fountain syntax, scene numbering, and production-ready formatting. Built with the same powerful patent-pending search system as BIAS Writer.
             </p>
             <a 
               href="mailto:info@bias.pub?subject=BIAS%20Screenwriter%20-%20Early%20Access"
