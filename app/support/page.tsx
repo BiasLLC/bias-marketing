@@ -92,12 +92,6 @@ export default function Support() {
               rel="noopener noreferrer"
             >
               help.bias.pub →
-            </a>
-            <p className="text-gray-500 text-sm mt-2">
-              (Coming soon)
-            </p>
-          </section>
-        </div>
       </main>
 
       {/* Footer */}
