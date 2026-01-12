@@ -92,6 +92,9 @@ export default function Support() {
               rel="noopener noreferrer"
             >
               help.bias.pub →
+            </a>
+          </section>
+        </div>
       </main>
 
       {/* Footer */}
