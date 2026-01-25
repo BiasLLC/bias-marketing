@@ -99,11 +99,9 @@ export default function Home() {
             <div className="max-w-md mx-auto">
               <div className="rounded-xl p-8 bg-gray-900 text-white ring-2 ring-gray-900">
                 <h3 className="text-xl font-semibold mb-2">BIAS Writer</h3>
-                <div className="mb-2">
-                  <span className="text-4xl font-bold">$3.99</span>
-                  <span className="text-gray-400">/month</span>
+                <div className="mb-6">
+                  <span className="text-4xl font-bold">TBD</span>
                 </div>
-                <p className="text-gray-400 text-sm mb-6">or $39.99/year (save 17%)</p>
                 <ul className="space-y-3">
                   <li className="flex items-center gap-2">
                     <CheckIcon className="text-white" />
