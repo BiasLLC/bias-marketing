@@ -12,6 +12,9 @@ export default function Home() {
             <span className="text-xl font-semibold tracking-tight">BIAS Writer</span>
           </Link>
           <div className="flex items-center gap-6 text-sm">
+            <a href="#roadmap" className="text-gray-600 hover:text-gray-900">
+              Roadmap
+            </a>
             <Link href="/support" className="text-gray-600 hover:text-gray-900">
               Support
             </Link>
@@ -129,6 +132,38 @@ export default function Home() {
             <p className="text-center text-gray-500 text-sm mt-8">
               Start with a 7-day free trial. Cancel anytime.
             </p>
+          </div>
+        </section>
+
+        {/* Roadmap */}
+        <section id="roadmap" className="border-t border-gray-200 bg-gradient-to-br from-emerald-600 to-teal-700">
+          <div className="max-w-5xl mx-auto px-6 py-20 text-center text-white">
+            <div className="inline-block bg-white/20 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+              ROADMAP
+            </div>
+            <h2 className="text-4xl font-bold mb-4">
+              What&apos;s Next
+            </h2>
+            <p className="text-xl text-emerald-100 max-w-2xl mx-auto mb-10">
+              We&apos;re just getting started. Here&apos;s what&apos;s coming to BIAS Writer.
+            </p>
+            <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                <div className="text-3xl mb-3">🤖</div>
+                <h3 className="text-lg font-semibold mb-2">Android Support</h3>
+                <p className="text-emerald-100 text-sm">BIAS Writer on Google Play for all your Android devices.</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                <div className="text-3xl mb-3">🌐</div>
+                <h3 className="text-lg font-semibold mb-2">Web Version</h3>
+                <p className="text-emerald-100 text-sm">Write from any browser, anywhere, anytime.</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                <div className="text-3xl mb-3">👥</div>
+                <h3 className="text-lg font-semibold mb-2">Multi-User Collaboration</h3>
+                <p className="text-emerald-100 text-sm">Real-time collaboration with your writing partners.</p>
+              </div>
+            </div>
           </div>
         </section>
 
