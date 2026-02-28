@@ -8,7 +8,7 @@ export default function Home() {
       <header className="border-b border-gray-200">
         <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/bias-logo.png" alt="BIAS Writer" width={32} height={32} className="h-8 w-auto" />
+            <Image src="/BiasWRITER.png" alt="BIAS Writer" width={32} height={32} className="h-8 w-8 rounded-lg" />
             <span className="text-xl font-semibold tracking-tight">BIAS Writer</span>
           </Link>
           <div className="flex items-center gap-6 text-sm">
@@ -31,13 +31,16 @@ export default function Home() {
       {/* Hero */}
       <main>
         <section className="max-w-5xl mx-auto px-6 py-24 text-center">
+          <div className="flex justify-center mb-8">
+            <Image src="/BiasWRITER.png" alt="BIAS Writer" width={120} height={120} className="rounded-2xl shadow-lg" />
+          </div>
           <h1 className="text-5xl font-bold tracking-tight mb-6">
             Get it Write
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10">
             Some words are more important than others, <em>yours</em>.
             <br />
-            A professional markdown editor for novelists, journalists, students, and bloggers. Screenwriters, you&apos;re <a href="#script" className="text-blue-600 hover:text-blue-700 font-medium underline">next</a>.
+            A professional markdown editor for novelists, journalists, students, and bloggers. Playwrights &amp; screenwriters, you&apos;re <a href="#script" className="text-blue-600 hover:text-blue-700 font-medium underline">next</a>.
           </p>
           <div className="flex justify-center">
             <a 
@@ -155,6 +158,9 @@ export default function Home() {
         {/* Coming Soon - BIAS Script */}
         <section id="script" className="border-t border-gray-200 bg-gradient-to-br from-purple-600 to-indigo-700">
           <div className="max-w-5xl mx-auto px-6 py-20 text-center text-white">
+            <div className="flex justify-center mb-6">
+              <Image src="/BiasSCRIPT.png" alt="BIAS Script" width={100} height={100} className="rounded-2xl shadow-lg" />
+            </div>
             <div className="inline-block bg-white/20 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
               COMING SOON
             </div>
