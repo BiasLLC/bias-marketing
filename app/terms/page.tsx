@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata = {
   title: 'Terms of Service - BIAS Writer',
@@ -11,8 +12,9 @@ export default function TermsOfService() {
       {/* Header */}
       <header className="border-b border-gray-200">
         <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-xl font-semibold tracking-tight">
-            BIAS Writer
+          <Link href="/" className="flex items-center gap-2">
+            <Image src="/BiasWRITER.png" alt="BIAS Writer" width={32} height={32} className="h-8 w-8 rounded-lg" />
+            <span className="text-xl font-semibold tracking-tight">BIAS Writer</span>
           </Link>
           <div className="flex items-center gap-6 text-sm">
             <Link href="/support" className="text-gray-600 hover:text-gray-900">
@@ -36,12 +38,12 @@ export default function TermsOfService() {
           <h2>1. The Service</h2>
           <p>
             BIAS Writer is a writing application that helps you create, organize, and export 
-            written content. The service is available on iOS, iPadOS, Android, and the web.
+            written content. The service is available on iPhone, iPad, and Mac.
           </p>
 
           <h2>2. Accounts</h2>
           <p>
-            To use BIAS Writer's sync features, you must create an account. You are responsible for:
+            To use BIAS Writer's sync features, you must sign in with your Apple ID. You are responsible for:
           </p>
           <ul>
             <li>Maintaining the confidentiality of your account credentials</li>
@@ -61,9 +63,9 @@ export default function TermsOfService() {
 
           <h3>Billing</h3>
           <ul>
-            <li>All purchases are processed through Apple App Store (iOS/iPadOS) or Google Play Store (Android)</li>
+            <li>All purchases are processed through the Apple App Store</li>
             <li>We do not process payments directly</li>
-            <li>Subscription terms, pricing, and billing are governed by the respective app store's terms</li>
+            <li>Subscription terms, pricing, and billing are governed by Apple's terms</li>
           </ul>
 
           <h3>Free Trials</h3>
@@ -74,9 +76,9 @@ export default function TermsOfService() {
 
           <h3>Cancellation and Refunds</h3>
           <ul>
-            <li>You may cancel your subscription at any time through your device's app store settings</li>
+            <li>You may cancel your subscription at any time through your device's App Store settings</li>
             <li>Cancellation takes effect at the end of the current billing period</li>
-            <li>Refund requests must be directed to Apple or Google, per their refund policies</li>
+            <li>Refund requests must be directed to Apple, per their refund policies</li>
             <li>We cannot process refunds directly</li>
           </ul>
 
@@ -90,7 +92,7 @@ export default function TermsOfService() {
 
           <h3>License to Us</h3>
           <p>
-            By using our sync features, you grant us a limited license to store, transmit, and 
+            By using our iCloud sync features, you grant us a limited license to store, transmit, and 
             display your content solely for the purpose of providing the service to you. This 
             license ends when you delete your content or account.
           </p>
