@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata = {
   title: 'Support - BIAS Writer',
@@ -11,8 +12,9 @@ export default function Support() {
       {/* Header */}
       <header className="border-b border-gray-200">
         <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-xl font-semibold tracking-tight">
-            BIAS Writer
+          <Link href="/" className="flex items-center gap-2">
+            <Image src="/BiasWRITER.png" alt="BIAS Writer" width={32} height={32} className="h-8 w-8 rounded-lg" />
+            <span className="text-xl font-semibold tracking-tight">BIAS Writer</span>
           </Link>
           <div className="flex items-center gap-6 text-sm">
             <Link href="/support" className="text-gray-600 hover:text-gray-900">
@@ -54,7 +56,7 @@ export default function Support() {
             <div className="space-y-6">
               <HelpItem 
                 question="How do I cancel my subscription?"
-                answer="You can cancel your subscription at any time through your device's app store settings. On iOS, go to Settings → [Your Name] → Subscriptions. On Android, go to Google Play Store → Menu → Subscriptions."
+                answer="You can cancel your subscription at any time through your device's App Store settings. Go to Settings → [Your Name] → Subscriptions."
               />
               <HelpItem 
                 question="How do I export my documents?"
@@ -62,7 +64,7 @@ export default function Support() {
               />
               <HelpItem 
                 question="How does sync work?"
-                answer="When you're signed in, your projects and documents automatically sync across all your devices. Changes are saved continuously as you type."
+                answer="Your projects and documents automatically sync across all your Apple devices via iCloud. Changes are saved continuously as you type."
               />
               <HelpItem 
                 question="What are memos, omits, and tags?"
@@ -70,7 +72,11 @@ export default function Support() {
               />
               <HelpItem 
                 question="Can I use BIAS Writer offline?"
-                answer="Yes! BIAS Writer works fully offline. Your changes will sync automatically when you reconnect to the internet."
+                answer="Yes! BIAS Writer works fully offline. Your changes will sync automatically via iCloud when you reconnect to the internet."
+              />
+              <HelpItem 
+                question="Which devices are supported?"
+                answer="BIAS Writer is available on iPhone, iPad, and Mac (Apple Silicon). Your work syncs seamlessly across all your Apple devices via iCloud."
               />
               <HelpItem 
                 question="How do I delete my account?"
