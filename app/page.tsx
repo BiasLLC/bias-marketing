@@ -3,28 +3,9 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-gray-900 relative">
-      {/* Background Screenshot */}
-      <div 
-        className="fixed inset-0 z-0 pointer-events-none overflow-hidden"
-        aria-hidden="true"
-      >
-        <div 
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150vw] h-[150vh] opacity-10"
-          style={{ transform: 'translate(-50%, -50%) rotate(-8deg)' }}
-        >
-          <Image 
-            src="/hero-screenshot.png" 
-            alt="" 
-            fill
-            className="object-contain"
-            priority
-          />
-        </div>
-      </div>
-
+    <div className="min-h-screen bg-white text-gray-900">
       {/* Header */}
-      <header className="border-b border-gray-200 bg-white/80 backdrop-blur-sm relative z-10">
+      <header className="border-b border-gray-200">
         <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <Image src="/BiasWRITER.png" alt="BIAS Writer" width={32} height={32} className="h-8 w-8 rounded-lg" />
@@ -48,7 +29,7 @@ export default function Home() {
       </header>
 
       {/* Hero */}
-      <main className="relative z-10">
+      <main>
         <section className="max-w-5xl mx-auto px-6 py-24 text-center">
           <div className="flex justify-center mb-8">
             <Image src="/BiasWRITER.png" alt="BIAS Writer" width={120} height={120} className="rounded-2xl shadow-lg" />
@@ -78,7 +59,7 @@ export default function Home() {
         </section>
 
         {/* Features */}
-        <section className="border-t border-gray-200 bg-gray-50/80 backdrop-blur-sm">
+        <section className="border-t border-gray-200 bg-gray-50">
           <div className="max-w-5xl mx-auto px-6 py-20">
             <h2 className="text-3xl font-bold text-center mb-16">
               Built for writers
@@ -113,7 +94,7 @@ export default function Home() {
         </section>
 
         {/* Pricing */}
-        <section className="border-t border-gray-200 bg-white/80 backdrop-blur-sm">
+        <section className="border-t border-gray-200">
           <div className="max-w-5xl mx-auto px-6 py-20">
             <h2 className="text-3xl font-bold text-center mb-16">
               Simple pricing
@@ -205,7 +186,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 bg-gray-50/80 backdrop-blur-sm relative z-10">
+      <footer className="border-t border-gray-200 bg-gray-50">
         <div className="max-w-5xl mx-auto px-6 py-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-sm text-gray-500 text-center md:text-left">
