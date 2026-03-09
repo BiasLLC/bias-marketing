@@ -30,7 +30,7 @@ export default function Home() {
 
       <main>
         {/* Hero */}
-        <section className="pt-20 pb-12 px-6">
+        <section className="pt-16 pb-6 px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-6xl font-bold tracking-tight mb-6">
               Get it Write
@@ -54,8 +54,8 @@ export default function Home() {
         </section>
 
         {/* Device Showcase */}
-        <section className="py-12 px-6">
-          <div className="max-w-6xl mx-auto">
+        <section className="px-6">
+          <div className="max-w-5xl mx-auto">
             <Image 
               src="/BiasUniverseComp.png" 
               alt="BIAS Writer on Mac, iPad, and iPhone" 
@@ -68,7 +68,7 @@ export default function Home() {
         </section>
 
         {/* Tagline */}
-        <section className="py-20 px-6">
+        <section className="py-12 px-6">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-3xl text-gray-600 leading-relaxed">
               A professional markdown editor for novelists, journalists, students, and bloggers.
