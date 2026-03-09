@@ -6,24 +6,26 @@ export default function Home() {
     <div className="min-h-screen bg-white text-gray-900">
       {/* Header */}
       <header className="border-b border-gray-100">
-        <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2">
-            <Image src="/BiasWRITER.png" alt="BIAS Writer" width={32} height={32} className="h-8 w-8 rounded-lg" />
-            <span className="text-xl font-semibold tracking-tight">BIAS Writer</span>
-          </Link>
-          <div className="flex items-center gap-8 text-sm">
-            <a href="#features" className="text-gray-500 hover:text-gray-900 transition-colors">
-              Features
-            </a>
-            <a href="#pricing" className="text-gray-500 hover:text-gray-900 transition-colors">
-              Pricing
-            </a>
-            <Link href="/support" className="text-gray-500 hover:text-gray-900 transition-colors">
-              Support
+        <nav className="max-w-6xl mx-auto px-6 py-4">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <Link href="/" className="flex items-center gap-2">
+              <Image src="/BiasWRITER.png" alt="BIAS Writer" width={32} height={32} className="h-8 w-8 rounded-lg" />
+              <span className="text-xl font-semibold tracking-tight">BIAS Writer</span>
             </Link>
-            <Link href="https://help.bias.pub" className="text-gray-500 hover:text-gray-900 transition-colors">
-              Help
-            </Link>
+            <div className="flex items-center gap-6 sm:gap-8 text-sm">
+              <a href="#features" className="text-gray-500 hover:text-gray-900 transition-colors">
+                Features
+              </a>
+              <a href="#pricing" className="text-gray-500 hover:text-gray-900 transition-colors">
+                Pricing
+              </a>
+              <Link href="/support" className="text-gray-500 hover:text-gray-900 transition-colors">
+                Support
+              </Link>
+              <Link href="https://help.bias.pub" className="text-gray-500 hover:text-gray-900 transition-colors">
+                Help
+              </Link>
+            </div>
           </div>
         </nav>
       </header>
