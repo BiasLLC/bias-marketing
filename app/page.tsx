@@ -122,7 +122,7 @@ export default function Home() {
               <div className="text-center">
                 <div className="relative inline-block">
                   <Image 
-                    src="/motivation.png" 
+                    src="/motivation2.png" 
                     alt="Sprint Timer" 
                     width={300} 
                     height={500}
