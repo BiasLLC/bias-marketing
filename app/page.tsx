@@ -196,24 +196,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Roadmap */}
-        <section className="py-24 px-6 border-t border-gray-100 bg-gradient-to-br from-emerald-50 to-teal-50">
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="text-emerald-600 font-semibold mb-4">ROADMAP</p>
-            <h2 className="text-4xl font-bold mb-6">
-              What&apos;s Next
-            </h2>
-            <p className="text-xl text-gray-600 mb-12">
-              We&apos;re just getting started.
-            </p>
-            <div className="inline-block bg-white rounded-2xl p-8 shadow-sm">
-              <div className="text-4xl mb-4">👥</div>
-              <h3 className="text-xl font-semibold mb-2">Multi-User Collaboration</h3>
-              <p className="text-gray-500">Real-time collaboration with your writing partners.</p>
-            </div>
-          </div>
-        </section>
-
         {/* BIAS Script */}
         <section id="script" className="py-24 px-6 bg-gradient-to-br from-purple-600 to-indigo-700">
           <div className="max-w-3xl mx-auto text-center text-white">
