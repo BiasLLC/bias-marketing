@@ -2,8 +2,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata = {
-  title: 'Terms of Service - BIAS Writer',
-  description: 'Terms of Service for BIAS Writer',
+  title: 'Terms of Service - BIAS',
+  description: 'Terms of Service for BIAS Writer, BIAS Writer Solo, and BIAS Script',
 }
 
 export default function TermsOfService() {
@@ -27,204 +27,289 @@ export default function TermsOfService() {
       {/* Content */}
       <main className="max-w-3xl mx-auto px-6 py-16">
         <h1 className="text-4xl font-bold mb-2">Terms of Service</h1>
-        <p className="text-gray-500 mb-12">Last Updated: November 28, 2024</p>
+        <p className="text-gray-500 mb-12">Last Updated: March 15, 2026</p>
         
         <div className="prose prose-gray max-w-none">
           <p className="lead">
-            These Terms of Service ("Terms") govern your use of BIAS Writer, operated by 
-            BIAS LLC ("we," "us," or "our"). By using BIAS Writer, you agree to these Terms.
+            These Terms of Service (&ldquo;Terms&rdquo;) govern your use of BIAS Writer, BIAS Writer Solo, 
+            BIAS Script, and any other applications published by BIAS LLC (collectively, 
+            the &ldquo;Service&rdquo; or &ldquo;BIAS apps&rdquo;). BIAS LLC (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) is a Wisconsin 
+            limited liability company. By downloading, installing, or using any BIAS app, you agree 
+            to these Terms. If you do not agree, do not use the Service.
           </p>
 
+          {/* ============ SECTION 1 ============ */}
           <h2>1. The Service</h2>
           <p>
-            BIAS Writer is a writing application that helps you create, organize, and export 
-            written content. The service is available on iPhone, iPad, and Mac.
-          </p>
-
-          <h2>2. Accounts</h2>
-          <p>
-            To use BIAS Writer's sync features, you must sign in with your Apple ID. You are responsible for:
+            The BIAS apps are client-side writing and screenwriting tools designed for iPad and Mac. 
+            They help you create, organize, format, and export written content. Key features may include 
+            document editing, project organization, formatting tools, export to PDF and other formats, 
+            and iCloud-based sync.
           </p>
           <ul>
-            <li>Maintaining the confidentiality of your account credentials</li>
-            <li>All activities that occur under your account</li>
-            <li>Notifying us immediately of any unauthorized use</li>
+            <li>
+              <strong>BIAS Writer</strong> is a subscription-based markdown writing app with support 
+              for multiple projects and documents.
+            </li>
+            <li>
+              <strong>BIAS Writer Solo</strong> is a one-time-purchase version of BIAS Writer limited 
+              to a single project, with all other features included.
+            </li>
+            <li>
+              <strong>BIAS Script</strong> is a screenwriting and script editing app with Fountain-based 
+              formatting, scene management, and screenplay export features.
+            </li>
           </ul>
           <p>
-            We reserve the right to suspend or terminate accounts that violate these Terms.
+            We may update, modify, or discontinue features of the Service at any time. We will make 
+            reasonable efforts to notify you of significant changes.
           </p>
 
-          <h2>3. Subscriptions and Payments</h2>
+          {/* ============ SECTION 2 ============ */}
+          <h2>2. Accounts and Authentication</h2>
+          <p>
+            To use certain features, including iCloud-based sync and backup, you may need to sign in 
+            with your Apple ID through Apple&rsquo;s services. Apple account authentication, credential 
+            management, and related account security are governed by Apple&rsquo;s own terms and policies. 
+            BIAS LLC does not manage Apple ID credentials or passwords.
+          </p>
+          <p>You are responsible for:</p>
+          <ul>
+            <li>Maintaining the security of your devices and Apple account access</li>
+            <li>All activity that occurs through your use of the Service</li>
+            <li>Notifying us of suspected misuse of the app itself</li>
+          </ul>
+          <p>
+            We may suspend or terminate access to app-specific features if you violate these Terms.
+          </p>
+
+          {/* ============ SECTION 3 ============ */}
+          <h2>3. Subscriptions, Purchases, and Payments</h2>
           
-          <h3>Subscription</h3>
+          <h3>Subscription Apps</h3>
           <p>
-            BIAS Writer requires a paid subscription after a 7-day free trial.
+            BIAS Writer and BIAS Script may require a paid subscription after any applicable free trial 
+            period. If you do not cancel before a trial ends, you will be charged for the subscription.
           </p>
 
-          <h3>Billing</h3>
-          <ul>
-            <li>All purchases are processed through the Apple App Store</li>
-            <li>We do not process payments directly</li>
-            <li>Subscription terms, pricing, and billing are governed by Apple's terms</li>
-          </ul>
-
-          <h3>Free Trials</h3>
+          <h3>One-Time Purchase Apps</h3>
           <p>
-            Pro subscriptions may include a free trial period. If you do not cancel before 
-            the trial ends, you will be charged for the subscription.
+            BIAS Writer Solo is available as a one-time purchase through the App Store. No recurring 
+            subscription is required.
+          </p>
+
+          <h3>Billing and Payment Processing</h3>
+          <p>
+            All purchases, subscription billing, renewals, cancellations, and refund processing are 
+            handled through Apple&rsquo;s App Store. Apple, not BIAS LLC, is the merchant of record for 
+            all App Store transactions. We do not directly collect or store your payment information 
+            for App Store purchases.
+          </p>
+          <p>
+            Subscription pricing, billing cycles, free trial terms, cancellation rights, and refund 
+            eligibility are subject to Apple&rsquo;s terms, App Store rules, and Apple&rsquo;s refund policies.
           </p>
 
           <h3>Cancellation and Refunds</h3>
           <ul>
-            <li>You may cancel your subscription at any time through your device's App Store settings</li>
+            <li>You may cancel a subscription at any time through your device&rsquo;s App Store settings</li>
             <li>Cancellation takes effect at the end of the current billing period</li>
-            <li>Refund requests must be directed to Apple, per their refund policies</li>
-            <li>We cannot process refunds directly</li>
+            <li>Refund requests must be directed to Apple per their refund policies</li>
+            <li>We cannot process refunds directly for App Store purchases</li>
           </ul>
 
+          {/* ============ SECTION 4 ============ */}
           <h2>4. Your Content</h2>
-          
+
           <h3>Ownership</h3>
           <p>
-            <strong>You retain full ownership of all content you create using BIAS Writer.</strong> We 
-            claim no intellectual property rights over your projects, documents, or other creative work.
+            <strong>You retain full ownership of all content you create using any BIAS app.</strong> We 
+            claim no ownership interest in your documents, projects, scripts, notes, or other creative work.
           </p>
 
-          <h3>License to Us</h3>
+          <h3>Limited Service License</h3>
           <p>
-            By using our iCloud sync features, you grant us a limited license to store, transmit, and 
-            display your content solely for the purpose of providing the service to you. This 
-            license ends when you delete your content or account.
+            You grant BIAS LLC only the limited rights reasonably necessary to operate, maintain, and 
+            support the app features we provide to you.
+          </p>
+          <p>
+            To the extent that sync, backup, or storage features rely on Apple services such as iCloud, 
+            storage, transmission, authentication, and related processing are performed through 
+            Apple&rsquo;s systems rather than systems operated directly by BIAS LLC. We do not maintain 
+            separate servers that store or transmit your content.
+          </p>
+          <p>
+            We do not claim any broader right to use, publish, sell, exploit, or review your content 
+            except as required to provide support you request, comply with law, enforce these Terms, 
+            or protect the Service.
           </p>
 
           <h3>Your Responsibilities</h3>
           <p>
-            You are solely responsible for your content. You agree not to use BIAS Writer to 
-            create, store, or distribute content that:
+            You are solely responsible for your content and for maintaining any backups you want beyond 
+            the functionality offered through the app or Apple services. You agree not to use any BIAS 
+            app to create, store, or distribute content that violates any applicable law or infringes 
+            on others&rsquo; intellectual property rights.
           </p>
-          <ul>
-            <li>Violates any applicable law</li>
-            <li>Infringes on others' intellectual property rights</li>
-            <li>Contains malware or harmful code</li>
-          </ul>
 
+          {/* ============ SECTION 5 ============ */}
           <h2>5. Acceptable Use</h2>
           <p>You agree not to:</p>
           <ul>
-            <li>Attempt to gain unauthorized access to our systems</li>
-            <li>Use the service to harm, harass, or defraud others</li>
-            <li>Reverse engineer, decompile, or disassemble the application</li>
-            <li>Use automated systems to access the service without permission</li>
-            <li>Resell or redistribute the service without authorization</li>
+            <li>Attempt to gain unauthorized access to our systems or the systems of any third-party service used by the BIAS apps</li>
+            <li>Use the Service to harm, harass, or defraud others</li>
+            <li>Reverse engineer, decompile, or disassemble any BIAS app</li>
+            <li>Use automated systems to access the Service without permission</li>
+            <li>Resell or redistribute the Service without authorization</li>
           </ul>
 
+          {/* ============ SECTION 6 ============ */}
           <h2>6. Intellectual Property</h2>
           <p>
-            BIAS Writer, including its design, code, features, and branding, is owned by BIAS LLC 
-            and protected by intellectual property laws. These Terms do not grant you any rights 
-            to our trademarks, logos, or other brand features.
+            The BIAS apps, including their design, code, features, and branding, are owned by BIAS LLC 
+            and protected by intellectual property laws. Certain features of the Service may be the 
+            subject of pending patent applications. These Terms do not grant you any rights to our 
+            trademarks, logos, patents, or other intellectual property.
           </p>
 
+          {/* ============ SECTION 7 ============ */}
           <h2>7. Privacy</h2>
           <p>
-            Your use of BIAS Writer is also governed by our{' '}
-            <Link href="/privacy" className="text-blue-600 hover:underline">Privacy Policy</Link>.
+            Your use of the BIAS apps is governed by our{' '}
+            <Link href="/privacy" className="text-blue-600 hover:underline">Privacy Policy</Link>. 
+            Certain account, purchase, sync, storage, authentication, and device-level functions may 
+            also be governed by Apple&rsquo;s own terms, privacy disclosures, and platform policies.
           </p>
 
+          {/* ============ SECTION 8 ============ */}
           <h2>8. Disclaimers</h2>
           <p>
-            BIAS Writer is provided "as is" and "as available" without warranties of any kind, 
-            either express or implied, including but not limited to:
+            The BIAS apps are provided &ldquo;as is&rdquo; and &ldquo;as available,&rdquo; without warranties of any kind, 
+            express or implied, including warranties of merchantability, fitness for a particular 
+            purpose, non-infringement, accuracy, availability, or uninterrupted operation.
           </p>
-          <ul>
-            <li>Merchantability</li>
-            <li>Fitness for a particular purpose</li>
-            <li>Non-infringement</li>
-            <li>Uninterrupted or error-free operation</li>
-          </ul>
           <p>
-            <strong>We do not guarantee that your content will never be lost. You are responsible 
-            for maintaining your own backups.</strong>
+            We do not guarantee that the Service will be uninterrupted, error-free, secure, or 
+            compatible with every device, operating system version, Apple service, or third-party 
+            platform environment.
+          </p>
+          <p>
+            We are not responsible for outages, delays, data loss, sync failures, billing problems, 
+            or feature interruptions caused by Apple, the App Store, iCloud, device settings, operating 
+            system issues, internet service providers, or other third-party services outside our 
+            reasonable control.
+          </p>
+          <p>
+            <strong>You are responsible for maintaining your own backups of important content.</strong>
           </p>
 
+          {/* ============ SECTION 9 ============ */}
           <h2>9. Limitation of Liability</h2>
           <p>
-            To the maximum extent permitted by law, BIAS LLC shall not be liable for any indirect, 
-            incidental, special, consequential, or punitive damages, including but not limited to:
+            To the maximum extent permitted by law, BIAS LLC and its owners, officers, employees, 
+            contractors, and agents will not be liable for any indirect, incidental, consequential, 
+            special, exemplary, or punitive damages, including loss of data, loss of content, loss 
+            of profits, loss of goodwill, business interruption, device failure, sync failure, or 
+            service interruption, even if we have been advised of the possibility of such damages.
+          </p>
+          <p>
+            To the maximum extent permitted by law, our total liability arising out of or relating to 
+            the Service or these Terms will not exceed the greater of:
           </p>
           <ul>
-            <li>Loss of data</li>
-            <li>Loss of profits</li>
-            <li>Loss of goodwill</li>
-            <li>Service interruption</li>
+            <li>The amount you paid to us through the Service in the twelve (12) months before the event giving rise to the claim, or</li>
+            <li>Fifty U.S. dollars (US $50)</li>
           </ul>
-          <p>
-            Our total liability for any claim arising from these Terms or the service shall not 
-            exceed the amount you paid us in the twelve (12) months preceding the claim, or fifty 
-            dollars ($50), whichever is greater.
-          </p>
 
+          {/* ============ SECTION 10 ============ */}
           <h2>10. Indemnification</h2>
           <p>
-            You agree to indemnify and hold harmless BIAS LLC and its officers, employees, and 
-            agents from any claims, damages, losses, or expenses (including legal fees) arising from:
+            You agree to indemnify, defend, and hold harmless BIAS LLC and its owners, officers, 
+            employees, contractors, and agents from and against claims, losses, liabilities, damages, 
+            judgments, costs, and expenses, including reasonable attorneys&rsquo; fees, arising out of or 
+            relating to:
           </p>
           <ul>
-            <li>Your use of the service</li>
+            <li>Your use or misuse of the Service</li>
             <li>Your content</li>
             <li>Your violation of these Terms</li>
+            <li>Your violation of any law or any third-party right, including intellectual property, privacy, publicity, or contractual rights</li>
           </ul>
 
-          <h2>11. Changes to the Service</h2>
+          {/* ============ SECTION 11 ============ */}
+          <h2>11. Third-Party Services and Events Outside Our Control</h2>
           <p>
-            We may modify, suspend, or discontinue BIAS Writer (or any part of it) at any time. 
-            We will make reasonable efforts to notify you of significant changes.
+            Certain features of the Service depend on third-party services, platforms, or infrastructure, 
+            including Apple, the App Store, iCloud, internet providers, device manufacturers, and 
+            operating system vendors. We are not responsible for failures, interruptions, compatibility 
+            issues, delays, account restrictions, or changes caused by those third parties.
+          </p>
+          <p>
+            We will not be liable for delay or failure to perform caused by events beyond our reasonable 
+            control, including outages, cyber incidents, platform changes, acts of government, labor 
+            disputes, natural disasters, telecommunications failures, or internet disruptions.
           </p>
 
-          <h2>12. Changes to These Terms</h2>
+          {/* ============ SECTION 12 ============ */}
+          <h2>12. Changes to the Service</h2>
           <p>
-            We may update these Terms from time to time. We will notify you of material changes 
-            through the app or via email. Continued use after changes constitutes acceptance.
+            We may modify, suspend, or discontinue any BIAS app (or any part of it) at any time. We 
+            will make reasonable efforts to notify you of significant changes.
           </p>
 
-          <h2>13. Termination</h2>
+          {/* ============ SECTION 13 ============ */}
+          <h2>13. Changes to These Terms</h2>
           <p>
-            You may stop using BIAS Writer at any time. We may terminate or suspend your access 
-            if you violate these Terms or for any other reason with reasonable notice.
+            We may update these Terms from time to time. We will notify you of material changes through 
+            the app or via email. Continued use after changes constitutes acceptance.
+          </p>
+
+          {/* ============ SECTION 14 ============ */}
+          <h2>14. Termination</h2>
+          <p>
+            You may stop using any BIAS app at any time. We may terminate or suspend your access if 
+            you violate these Terms or for any other reason with reasonable notice.
           </p>
           <p>Upon termination:</p>
           <ul>
-            <li>Your right to use the service ends immediately</li>
-            <li>You may export your content before termination takes effect</li>
-            <li>We may delete your data in accordance with our Privacy Policy</li>
+            <li>Your right to use the Service ends immediately, except as required by applicable law</li>
+            <li>You should export or back up your content before deleting the app, ending your subscription, or terminating use</li>
+            <li>Access to app features may end immediately or over time depending on platform and subscription status</li>
+            <li>Content stored through Apple or on your own devices may remain subject to Apple&rsquo;s systems, your device settings, and your own deletion choices</li>
           </ul>
 
-          <h2>14. Governing Law</h2>
+          {/* ============ SECTION 15 ============ */}
+          <h2>15. Governing Law</h2>
           <p>
-            These Terms are governed by the laws of the State of Wisconsin, United States, 
-            without regard to conflict of law principles.
+            These Terms are governed by the laws of the State of Wisconsin, United States, without 
+            regard to conflict of law principles.
           </p>
 
-          <h2>15. Dispute Resolution</h2>
+          {/* ============ SECTION 16 ============ */}
+          <h2>16. Dispute Resolution</h2>
           <p>
-            Any disputes arising from these Terms or the service shall be resolved through 
-            binding arbitration in Wisconsin, except that either party may seek injunctive 
-            relief in court for intellectual property violations.
+            Any disputes arising from these Terms or the Service shall be resolved through binding 
+            arbitration in Wisconsin, except that either party may seek injunctive relief in court 
+            for intellectual property violations.
           </p>
 
-          <h2>16. General</h2>
+          {/* ============ SECTION 17 ============ */}
+          <h2>17. General</h2>
           <ul>
-            <li><strong>Entire Agreement:</strong> These Terms constitute the entire agreement between you and BIAS LLC regarding BIAS Writer.</li>
+            <li><strong>Entire Agreement:</strong> These Terms constitute the entire agreement between you and BIAS LLC regarding the BIAS apps.</li>
             <li><strong>Severability:</strong> If any provision is found unenforceable, the remaining provisions remain in effect.</li>
             <li><strong>Waiver:</strong> Our failure to enforce any right does not waive that right.</li>
-            <li><strong>Assignment:</strong> You may not assign these Terms. We may assign them in connection with a merger or acquisition.</li>
+            <li><strong>Assignment:</strong> You may not assign these Terms. We may assign them in connection with a merger, acquisition, or sale of assets.</li>
           </ul>
 
+          {/* ============ CONTACT ============ */}
           <h2>Contact Us</h2>
           <p>If you have questions about these Terms:</p>
           <p>
-            <strong>Email:</strong> <a href="mailto:support@bias.pub">support@bias.pub</a><br />
-            <strong>Website:</strong> <a href="/support">www.bias.pub/support</a>
+            <strong>Email:</strong>{' '}
+            <a href="mailto:support@bias.pub" className="text-blue-600 hover:underline">support@bias.pub</a><br />
+            <strong>Website:</strong>{' '}
+            <Link href="/support" className="text-blue-600 hover:underline">www.bias.pub/support</Link>
           </p>
           <p>
             BIAS LLC<br />
